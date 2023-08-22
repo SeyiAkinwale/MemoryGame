@@ -1,4 +1,4 @@
-document.addEventListener('DOCMContentLoaded', () =>)
+document.addEventListener('DOMContentLoaded', () =>
 {
   //card options
   const cardArray = 
@@ -69,7 +69,7 @@ document.addEventListener('DOCMContentLoaded', () =>)
       },      
     ]
 
-  const grid - document.querySeleector('.grid')
+  const grid = document.querySelector('.grid')
 
   //create you board
   function createBoard()
@@ -83,5 +83,6 @@ document.addEventListener('DOCMContentLoaded', () =>)
       grid.appendChild(card)
     }
   }
-  
+
+  createBoard()
 })
